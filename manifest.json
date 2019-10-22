@@ -1,7 +1,20 @@
 {
+    "manifest_version": 2,
     "name": "browser_pj",
     "version": "0.1",
-    "description": "browser_pj",
-    "manifest_version": 2
+    "icons":{ 
+        "16": "./Green16.png",
+        "32": "./Green.png",
+        "48": "./Green.png",
+        "128": "./Green.png"
+    },
+    "browser_action": {
+        "default_title": "interface",
+        "default_icon": {
+            "16": "./Green16.png",
+            "32": "./Green32.png"
+        }
+    },
+    "description": "browser_pj"
 }
         
